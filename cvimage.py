@@ -1,3 +1,6 @@
+# This python script will convert an image to MSX screen 2 format
+# TODO: use PIL instead of raw bitmap manipulation.
+
 with open("image.bin", "wb") as o:
 	with open("title.bmp", "rb") as f:
 		b = f.read(2)
